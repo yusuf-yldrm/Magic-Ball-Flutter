@@ -41,6 +41,7 @@ class _BallState extends State<Ball> {
   @override
   void initState() {
     super.initState();
+    // ignore: unused_local_variable
     ShakeDetector detector = ShakeDetector.autoStart(
       onPhoneShake: () {
         setState(() {
